@@ -1,0 +1,9 @@
+.pricing-container {
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+}
+
+.pricing-container>* {
+    flex: 1;
+}
