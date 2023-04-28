@@ -1,9 +1,13 @@
+body {
+    font-family: 'Sono', sans-serif;
+}
+
 .pricing-container {
     display: flex;
     gap: 30px;
     justify-content: center;
     align-items: center;
-    height: 700px;
+    height: 100vh;
 }
 
 .pricing-container>* {
