@@ -3,7 +3,7 @@
     gap: 30px;
     justify-content: center;
     align-items: center;
-    height: 600px;
+    height: 700px;
 }
 
 .pricing-container>* {
@@ -11,8 +11,33 @@
     max-width: 450px;
     background-color: #F2F2F2;
     text-align: center;
+    padding: 20px 0 20px 0;
 }
 
 .plan-features {
     list-style: none;
+}
+
+.plan-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.plan-price {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.plan-button {
+    padding: 10px;
+    background-color: #ff6600;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+}
+
+.plan-features {
+    line-height: 2.2;
 }
