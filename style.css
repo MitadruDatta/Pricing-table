@@ -1,9 +1,14 @@
 .pricing-container {
     display: flex;
-    gap: 20px;
-    justify-content: space-evenly;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
 }
 
 .pricing-container>* {
     flex: 1;
+    max-width: 450px;
+    background-color: #F2F2F2;
+    text-align: center;
 }
